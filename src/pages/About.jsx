@@ -1,6 +1,5 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import Modal from "../components/Modal/Modal";
 
 export const About = () => {
@@ -9,6 +8,7 @@ export const About = () => {
       <header>
         <h2 className="seccionTittle">About Me</h2>
       </header>
+
       <div className="container">
         <div className="aboutPhoto">
           <img className="aboutPhotoImg" src="../../images/profile.png" />
@@ -56,7 +56,7 @@ export const About = () => {
                     href="../../files/NeumannMiguelAngelCV.pdf"
                     download
                   >
-                    Download CV
+                    Hire Me
                   </a>
                 </td>
                 <td>

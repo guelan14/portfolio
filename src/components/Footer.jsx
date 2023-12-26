@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer>
       <p>
-        copyright © 2023 designed by <span>&nbsp; Miguel Angel Neumann</span>
+        <span>&nbsp; Thanks for visiting !</span>
       </p>
       <a
         href="https://www.linkedin.com/in/miguel-angel-neumann-a45639229/"

@@ -1,16 +1,39 @@
 #studies {
   background-color: #1b263b;
-  color: black;
+  color: rgb(255, 255, 255);
 }
 
-#studies .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(min-content, max-content));
-  gap: 16px;
-  padding: 20px;
-  width: 65%;
-  margin: 0 auto; /* Centra el contenedor en la pantalla */
+#studies h4 {
+  color: white;
+}
+.titulo1 {
+  grid-area: titulo1;
+}
+
+.titulo2 {
+  grid-area: titulo2;
+}
+
+.cursos {
+  grid-area: cursos;
+}
+
+#studies h3 {
+  color: rgb(180, 180, 180);
+}
+
+#studies h4 {
+  margin-bottom: 8px;
+}
+
+#studies ul {
+  list-style: none;
+}
+
+#studies li {
+  margin: 8px;
+  padding: 5px;
+  color: white;
 }
 
 #studies .grid-item {
@@ -18,13 +41,13 @@
 }
 
 #studies .grid-item {
-  background-color: rgb(46, 37, 37);
+  width: 100%;
+  height: 100%;
   color: #0d1b2a;
-  width: 270px;
   text-align: center;
   position: relative;
-  padding: 8px 8px 40px 8px;
-  background-color: rgba(255, 255, 255, 0.5); /* Azul con transparencia */
+  padding: 10px 10px 40px 10px;
+  background-color: rgba(10, 4, 4, 0.5); /* Azul con transparencia */
   border-radius: 10px;
   cursor: pointer;
   opacity: 0.9;
@@ -37,4 +60,16 @@
   bottom: 0;
   padding: 8px;
   font-size: 12px;
+}
+#studies .grid-container {
+  display: grid;
+  margin-bottom: 45px;
+  width: 65%;
+  grid-template-areas:
+    "titulo1 titulo2"
+    "titulo3 titulo4"
+    "cursos cursos";
+  gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto 1fr; /* La primera fila se ajusta automáticamente, las demás ocupan el 1fr restante */
 }

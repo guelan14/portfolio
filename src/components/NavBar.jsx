@@ -17,7 +17,9 @@ export const NavBar = () => {
             <li>
               <a href="#projects">Projects</a>
             </li>
-            <li class="nav-item "></li>
+            <li>
+              <a href="#studies">Studies</a>
+            </li>
           </ul>
         </nav>
         <div>

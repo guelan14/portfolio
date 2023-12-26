@@ -32,28 +32,37 @@ td {
 }
 
 .aboutPhoto {
-  width: 42%;
   display: flex;
   align-items: start;
   justify-content: center;
   background-position: center;
   background-size: cover;
+  width: 70%;
 }
 
 .aboutPhotoImg {
   border-radius: 30px;
   max-width: 150px;
   background-color: rgb(50, 69, 85);
+  margin: 20px;
 }
 
 .aboutInfo {
-  width: 58%;
   display: flex;
   place-items: start;
   flex-direction: column;
   text-align: start;
-  background-color: rgb(232, 232, 232);
   padding: 0px;
+}
+
+.grid-container-test {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  width: 65%;
+}
+
+.image-container-test {
+  max-width: 100%; /* La imagen se ajustará al 100% del contenedor */
 }
 
 #about .grid-container {
@@ -63,7 +72,6 @@ td {
   gap: 16px;
   padding: 0;
   width: 65%;
-  margin: 0 auto; /* Centra el contenedor en la pantalla */
   align-items: start;
   margin-bottom: 40px;
 }

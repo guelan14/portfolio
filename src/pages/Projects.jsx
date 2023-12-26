@@ -41,33 +41,32 @@ export const Projects = () => {
           onSlideChange={() => console.log("slide change")}
         >
           <SwiperSlide>
-            <div
-              className="projectCard"
-              href="https://github.com/guelan14/sistema-Canchas-Reservas/tree/main"
-              target="__blank"
-            >
-              <div className="projectTittle">
-                <h3>Center court system</h3>
-              </div>
+            <div className="projectCard">
+              <header>
+                <ul>
+                  <li className="buttonProject">Page Design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main>
+                <h3 className="projectTittle">Center court system</h3>
+                <p>asdasdsadasd asd asd a</p>
+              </main>
               <div className="projectImg">
                 <img src="../../images/futbol.jpg" />
               </div>
-
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <ul>
-                    <li>Python</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <a
-                    className="button"
-                    href="https://github.com/guelan14/sistema-Canchas-Reservas"
-                    target="__blank"
-                  >
-                    Github
-                  </a>
-                </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/sistema-Canchas-Reservas"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>
@@ -84,7 +83,10 @@ export const Projects = () => {
                   <h3>Web Page Hairdressing</h3>
                 </div>
                 <p>Building a page</p>
-              </main>
+              </main>{" "}
+              <div className="projectImg">
+                <img src="../../images/peluqueriaMarlene.png" />
+              </div>
               <div className="projectLink">
                 <ul>
                   <li>
@@ -107,221 +109,201 @@ export const Projects = () => {
                   </li>
                 </ul>
               </div>
-              <div className="projectImg">
-                <img src="../../images/peluqueriaMarlene.png" />
-              </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="projectCard">
-              <div className="projectTittle">
+              <header>
+                <ul>
+                  <li className="buttonProject">Page Design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main className="proyectTittle">
                 <h3>Api-Blog</h3>
-              </div>
+              </main>
+              <p></p>
               <div className="projectImg">
                 <img src="../../images/api-node.png" />
               </div>
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <h4>Lenguajes:</h4>
-                  <ul>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <ul>
-                    <li>
-                      <a
-                        className="button"
-                        href="https://github.com/guelan14/api-node-blog"
-                        target="__blank"
-                      >
-                        Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="buttonSecondary"
-                        href="https://www.peluqueriamarlene.com.ar/"
-                        target="__blank"
-                      >
-                        WebSite
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/api-node-blog"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="projectCard">
-              <div className="projectTittle">
-                <h3>Hairdressing Internal System</h3>
-              </div>
+              <header>
+                <ul>
+                  <li className="buttonProject">Page Design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main>
+                <h3 className="projectTittle">Hairdressing Internal System</h3>
+                <p>asdasdsadasd asd asd a</p>
+              </main>
               <div className="projectImg">
                 <img src="../../images/peluqueriaC.png" />
               </div>
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <h4>Lenguajes:</h4>
-                  <ul>
-                    <li>C</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <a
-                    className="button"
-                    href="https://github.com/guelan14/sistema-peluqueria"
-                    target="__blank"
-                  >
-                    Github
-                  </a>
-                </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/sistema-peluqueria"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="projectCard">
-              <div className="projectTittle">
-                <h3>Notes</h3>
-              </div>
+              <header>
+                <ul>
+                  <li className="buttonProject">Page Design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main>
+                <h3 className="projectTittle">Notes</h3>
+                <p>asdasdsadasd asd asd a</p>
+              </main>
               <div className="projectImg">
                 <img src="../../images/mys.png" />
               </div>
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <h4>Lenguajes:</h4>
-                  <ul>
-                    <li>Html </li>
-                    <li>Css</li>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <a
-                    className="button"
-                    href="https://github.com/guelan14/notesDinamic"
-                    target="__blank"
-                  >
-                    Github
-                  </a>
-                </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/notesDinamic"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="projectCard">
-              {" "}
-              <div className="projectTittle">
-                <h3>Dice Game</h3>
-              </div>
+              <header>
+                <ul>
+                  <li className="buttonProject">Page Design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main>
+                <h3 className="projectTittle">Dice Game</h3>
+                <p>asdasdsadasd asd asd a</p>
+              </main>
               <div className="projectImg">
-                <img src="../../images/diceGame.png" />
+                <img src="../../images/futbol.jpg" />
               </div>
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <h4>Lenguajes:</h4>
-                  <ul>
-                    <li>Html </li>
-                    <li>Css</li>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <ul>
-                    <li>
-                      <a
-                        className="button"
-                        href="https://github.com/guelan14/dice-game"
-                        target="__blank"
-                      >
-                        Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="button"
-                        href="https://guelan14.github.io/dice-game/"
-                        target="__blank"
-                      >
-                        WebSite
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/dice-game"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="buttonSecondary"
+                      href="https://guelan14.github.io/dice-game/"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faLink} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="projectCard">
-              <div className="projectTittle">
-                <h3>Portfolio</h3>
-              </div>
-              <div className="projectImg">
-                <img src="../../images/portfolio.png" />
-              </div>
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <h4>Lenguajes:</h4>
-                  <ul>
-                    <li>Html </li>
-                    <li>Css</li>
-                    <li>JavaScript</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <ul>
-                    <li>
-                      <a
-                        className="buttonSecondary"
-                        href="https://github.com/guelan14/portfolio"
-                        target="__blank"
-                      >
-                        Github
-                      </a>
-                    </li>
-
-                    <li>
-                      <a
-                        className="button"
-                        href="https://miguelangelneumann.com.ar"
-                        target="__blank"
-                      >
-                        WebSite
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+              <header>
+                <ul>
+                  <li className="buttonProject">Page design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main>
+                <h3 className="projectTittle">Portfolio</h3>
+                <p>asdasdsadasd asd asd a</p>
+              </main>
+              <div className="projectImg">asd</div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/portfolio"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      className="buttonSecondary"
+                      href="https://miguelangelneumann.com.ar"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faLink} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="projectCard">
-              <div className="projectTittle">
-                <h3>Futbol Tournament</h3>
-              </div>
+              <header>
+                <ul>
+                  <li className="buttonProject">Page Design</li>
+                  <li className="buttonYear">2023</li>
+                </ul>
+              </header>
+              <main>
+                <h3 className="projectTittle">Futbol Tournament</h3>
+                <p>asdasdsadasd asd asd a</p>
+              </main>
               <div className="projectImg">
                 <img src="../../images/futbolDiagram.png" />
               </div>
-              <div className="projectTecnologies">
-                <div className="projectLenguajes">
-                  <h4>Lenguajes:</h4>
-                  <ul>
-                    <li>Java</li>
-                  </ul>
-                </div>
-                <div className="projectLink">
-                  <ul>
-                    <li>
-                      <a
-                        className="button"
-                        href="https://github.com/VeraMatiasE/FutbolPOO"
-                        target="__blank"
-                      >
-                        Github
-                      </a>
-                    </li>
-                  </ul>
-                </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/VeraMatiasE/FutbolPOO"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </SwiperSlide>

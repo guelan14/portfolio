@@ -1,122 +1,26 @@
 #contact {
-  padding: 10px 0px 60px 0px;
-  background-color: grey;
+  padding: 0px 0px 60px 0px;
+  background-color: #080b10;
 }
 
 #contact h2 {
-  color: rgb(233, 133, 76);
+  color: rgb(198, 197, 196);
   text-align: center;
 }
 
-#contact .customContainer {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  place-items: center;
-  width: 100%;
+#contact h3 {
+  color: white;
 }
 
-.customContainer .contactInfo {
+#contact a {
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  margin-bottom: 25px;
   padding-top: 40px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
   box-sizing: border-box;
-}
-
-.customContainer .contactInfo .box {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.customContainer .contactInfo .box .icon a:hover {
-  transform: scale(1.3);
-  transition: 0.2s ease;
-  color: #ffa500;
-}
-
-.customContainer .contactInfo .box .text {
-  display: flex;
-  margin-left: 20px;
-  color: #fff;
-  flex-direction: column;
-  font-weight: 300;
-  box-sizing: border-box;
-}
-
-.customContainer .contactInfo .box .text h3 {
-  font-weight: 500;
-  color: #da7516;
-  text-align: start;
-}
-
-.contactForm {
-  width: 80%;
-  padding: 40px;
-  background: #fff;
-  border-radius: 60px;
-  box-shadow: 3px 1px 35px 5px rgba(0, 0, 0, 0.42) inset;
-  -webkit-box-shadow: 3px 1px 35px 5px rgba(0, 0, 0, 0.42) inset;
-  -moz-box-shadow: 3px 1px 35px 5px rgba(0, 0, 0, 0.42) inset;
-}
-
-.contactForm form h2 {
-  font-size: 30px;
-  color: #000000 !important;
-  font-weight: 500;
-}
-
-.contactForm .inputBox {
-  position: relative;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.contactForm .inputBox input,
-.contactForm .inputBox textarea {
-  width: 100%;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  border: none;
-  border-bottom: 2px solid #333;
-  outline: none;
-}
-
-.contactForm .inputBox span {
-  position: absolute;
-  left: 0;
-  padding: 5px 0;
-  font-size: 16px;
-  margin: 10px 0;
-  pointer-events: none;
-  transition: 0.5s;
-  color: #666;
-}
-
-.contactForm .inputBox input:focus ~ span,
-.contactForm .inputBox input:valid ~ span,
-.contactForm .inputBox textarea:focus ~ span,
-.contactForm .inputBox textarea:valid ~ span {
-  color: #e91e63;
-  font-size: 12px;
-  transform: translateY(-20px);
-}
-
-.contactForm .inputBox input[type="submit"] {
-  width: 100%;
-  background: #d66108;
-  color: #ffff;
-  cursor: pointer;
-  padding: 10px;
-  font-size: 18px;
-  border-radius: 20px;
-  box-shadow: 3px 1px 35px 5px rgba(0, 0, 0, 0.42) inset;
-  -webkit-box-shadow: 3px 1px 35px 5px rgba(0, 0, 0, 0.42) inset;
-  -moz-box-shadow: 3px 1px 35px 5px rgba(0, 0, 0, 0.42) inset;
-}
-
-.contactForm .inputBox input[type="submit"]:hover {
-  color: rgb(0, 0, 0) !important;
-  background: #a8a3a3;
 }
