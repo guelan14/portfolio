@@ -1,0 +1,90 @@
+#about {
+  background-color: rgb(232, 232, 232);
+}
+
+#about p {
+  color: rgb(33, 27, 27);
+  font-size: 16px;
+}
+
+#about h2 {
+  color: rgb(0, 0, 0);
+  text-align: start;
+}
+
+#about .skillTittle h2 {
+  color: rgb(70, 54, 40);
+}
+
+#about p {
+  color: grey;
+  font-size: 16px;
+}
+
+#about table {
+  color: grey;
+  font-size: 14px;
+}
+
+#about th,
+td {
+  padding: 8px 24px 8px 0px; /* Ajusta según sea necesario */
+}
+
+.aboutPhoto {
+  width: 42%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.aboutPhotoImg {
+  border-radius: 30px;
+  max-width: 150px;
+  background-color: rgb(50, 69, 85);
+}
+
+.aboutInfo {
+  width: 58%;
+  display: flex;
+  place-items: start;
+  flex-direction: column;
+  text-align: start;
+  background-color: rgb(232, 232, 232);
+  padding: 0px;
+}
+
+#about .grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(max-content, max-content));
+  gap: 16px;
+  padding: 0;
+  width: 65%;
+  margin: 0 auto; /* Centra el contenedor en la pantalla */
+  align-items: start;
+  margin-bottom: 40px;
+}
+#about .grid-item {
+  background-color: rgb(46, 37, 37);
+  color: #0d1b2a;
+  text-align: center;
+  position: relative;
+  padding: 8px 8px 40px 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.5); /* Azul con transparencia */
+  border-radius: 10px;
+  cursor: pointer;
+  height: auto;
+  opacity: 0.9;
+  width: 100%;
+}
+.grid-item ul {
+  list-style: none;
+}
+
+#about .grid-item {
+  color: black;
+}
