@@ -15,7 +15,7 @@ import "swiper/css/scrollbar";
 import "swiper/css/autoplay";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 export const Projects = () => {
@@ -93,7 +93,7 @@ export const Projects = () => {
                       href="https://github.com/guelan14/peluqueria-web-complete"
                       target="__blank"
                     >
-                      <FontAwesomeIcon icon={faLinkedin} />
+                      <FontAwesomeIcon icon={faGithub} />
                     </a>
                   </li>
                   <li>
