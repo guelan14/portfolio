@@ -4,7 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-weight: lighter;
   place-items: center;
 }
 
@@ -42,6 +41,14 @@ nav {
   opacity: 1;
 }
 
+.nav-content a {
+  color: white;
+}
+
+.nav-content a:hover {
+  color: grey;
+}
+
 .nav-links {
   list-style-type: none;
 }
@@ -53,6 +60,7 @@ nav {
 
 .nav-links li a {
   transition: all 0.3s ease 0s;
+  color: rgb(221, 219, 219);
 }
 
 .nav-links li a:hover {
@@ -66,6 +74,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  color: black;
 }
 
 .button {
@@ -100,8 +109,6 @@ button {
   font-size: 12px;
   text-align: center;
   text-decoration: none;
-  background-color: #5b5b5b; /* Sin color de fondo */
-  color: #333; /* Color del texto */
   border-radius: 15px 15px 15px;
   transition: background-color 0.3s ease;
 }

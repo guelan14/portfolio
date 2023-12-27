@@ -4,6 +4,7 @@
 
 #projects .button {
   background-color: #1b263b;
+  padding: 5px 25px 5px 25px;
 }
 #projects .button:hover {
   background-color: #2e435b;
@@ -79,22 +80,19 @@
   height: 100%;
   overflow: hidden;
   display: flex;
-  place-content: end;
-  text-align: end;
-  align-items: end;
+  align-items: start;
 }
 
-.projectImg img {
+#projects img {
   width: 100%; /* Asegura que la imagen ocupe el 100% del ancho del contenedor */
-  height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción original */
-  max-width: 100%; /* Evita que la imagen se haga más grande que su tamaño original */
-  display: block; /* Elimina cualquier espacio adicional debajo de la imagen */
   margin: 0 auto;
+  object-position: top;
+  object-fit: contain;
 }
 
 .projectLink {
   width: 100%;
-  align-items: center;
+  align-items: start;
   display: flex;
   flex-direction: column;
   margin: 20px;

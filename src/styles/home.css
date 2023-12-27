@@ -11,7 +11,7 @@
 }
 
 #home .socialIcons a {
-  color: rgb(163, 163, 163);
+  color: rgb(239, 239, 239);
   font-size: 25px;
 }
 
@@ -22,14 +22,14 @@
 }
 
 #home .icon {
-  color: rgb(98, 67, 43);
+  color: rgb(118, 95, 62);
   margin-right: 8px;
 }
 
 #home .socialIcons a:hover {
   transform: scale(1.05);
   transition: 0.3s ease;
-  color: rgb(175, 75, 20);
+  color: rgb(53, 64, 184);
 }
 
 #home img {
@@ -48,7 +48,7 @@
 
 .homeInfo li {
   font-size: 22px;
-  color: #83857d;
+  color: grey;
 }
 
 .homeInfo p {
@@ -56,9 +56,10 @@
 }
 
 h1 {
-  color: rgb(185, 107, 5);
+  font-weight: 900 !important;
+  color: rgb(193, 124, 34);
   text-align: start;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   padding-bottom: 5px;
 }

@@ -93,6 +93,10 @@ td {
   list-style: none;
 }
 
+.grid-item li {
+  margin: 2px;
+}
+
 #about .grid-item {
   color: black;
 }

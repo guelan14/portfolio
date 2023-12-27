@@ -13,7 +13,7 @@ export const Home = () => {
       <header className="homeTittle"></header>
       <div className="container">
         <div className="homeInfo">
-          <p>Hii There! I'm</p>
+          <p>Hi There! I'm</p>
           <h1>Miguel Angel Neumann</h1>
           <br></br>
           <ul>

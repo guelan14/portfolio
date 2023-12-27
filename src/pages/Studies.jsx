@@ -5,7 +5,7 @@ export const Studies = () => {
     <section id="studies">
       <header className="seccionTittle">
         <h2>Studies</h2>
-        <h3>Let explore what I did to make this!</h3>
+        <h3>What did I study to do this!</h3>
       </header>
       <div class="grid-container">
         <div class="titulo1 grid-item">

@@ -78,7 +78,7 @@ export const About = () => {
       </div>
       <div class="grid-container">
         <div class="grid-item">
-          <h3>Tecnologies</h3>
+          <h3 className="skillTittle">Tecnologies</h3>
           <ul>
             <li>Mongoose</li>
             <li>Node</li>
@@ -89,9 +89,7 @@ export const About = () => {
           </ul>
         </div>
         <div class="grid-item">
-          <div className="skillTittle">
-            <h3>Programming Lenguages</h3>
-          </div>
+          <h3 className="skillTittle">Programming Lenguages</h3>
           <ul>
             <li>C/C++</li>
             <li>Python</li>
@@ -103,9 +101,7 @@ export const About = () => {
           </ul>
         </div>
         <div class="grid-item">
-          <div className="skillTittle">
-            <h3>Lenguages</h3>
-          </div>
+          <h3 className="skillTittle">Courses </h3>
           <ul>
             <li>English: B2</li>
             <li> German: B1</li>
