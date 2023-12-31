@@ -7,16 +7,16 @@ export const Studies = () => {
         <h2>Studies</h2>
         <h3>What did I study to do this!</h3>
       </header>
-      <div class="grid-container">
-        <div class="titulo1 grid-item">
+      <div className="grid-container">
+        <div className="titulo1 grid-item">
           <h4>3rd year student Information Systems Engineering</h4>
           <p className="grid-uni">Universidad de la Cuenca del Plata (UCP)</p>
         </div>
-        <div class="titulo2 grid-item">
+        <div className="titulo2 grid-item">
           <h4>Process Industry Technician </h4>
           <p className="grid-uni">E.P.E.T. N10</p>
         </div>
-        <div class="cursos">
+        <div className="cursos">
           <h2>Courses </h2>
           <ul>
             <li>Practical Curse Django: Web Development Backend with Python</li>

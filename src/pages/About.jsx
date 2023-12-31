@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Modal from "../components/Modal/Modal";
 
 export const About = () => {
   return (
@@ -48,7 +46,6 @@ export const About = () => {
                 <td>Address:</td>
                 <td>Misiones, Posadas</td>
               </tr>
-              <br></br>
               <tr>
                 <td>
                   <a
@@ -76,8 +73,8 @@ export const About = () => {
       <div className="seccionTittle">
         <h2>Highlights Skills</h2>
       </div>
-      <div class="grid-container">
-        <div class="grid-item">
+      <div className="grid-container">
+        <div className="grid-item">
           <h3 className="skillTittle">Tecnologies</h3>
           <ul>
             <li>Mongoose</li>
@@ -88,7 +85,7 @@ export const About = () => {
             <li>MySql</li>
           </ul>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <h3 className="skillTittle">Programming Lenguages</h3>
           <ul>
             <li>C/C++</li>
@@ -100,7 +97,7 @@ export const About = () => {
             <li>Java</li>
           </ul>
         </div>
-        <div class="grid-item">
+        <div className="grid-item">
           <h3 className="skillTittle">Courses </h3>
           <ul>
             <li>English: B2</li>

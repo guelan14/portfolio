@@ -22,13 +22,16 @@ export const Projects = () => {
   return (
     <section id="projects">
       <header className="seccionTittle">
-        <h2>Proyects</h2> <h3>Exploring My Creativity: Featured Projects</h3>
+        <h2>Proyects</h2>
       </header>
+      <h3>Exploring My Creativity: Featured Projects</h3>
       <div className="swiperContent f-container">
         <Swiper
           //breakpoints
           breakpoints={{
-            100: { slidesPerView: 3 },
+            300: { slidesPerView: 1 },
+            500: { slidesPerView: 2 },
+            800: { slidesPerView: 3 },
           }}
           // install Swiper modules
           modules={[Navigation, Pagination, Autoplay, Scrollbar, A11y]}
@@ -49,7 +52,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h3 className="projectTittle">Center court system</h3>
+                <h4 className="projectTittle">Center court system</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">
@@ -80,10 +83,10 @@ export const Projects = () => {
               </header>
               <main>
                 <div className="projectTittle">
-                  <h3>Web Page Hairdressing</h3>
+                  <h4>Web Page Hairdressing</h4>
                 </div>
                 <p>Building a page</p>
-              </main>{" "}
+              </main>
               <div className="projectImg">
                 <img src="../../images/peluqueriaMarlene.png" />
               </div>
@@ -120,7 +123,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main className="proyectTittle">
-                <h3>Api-Blog</h3>
+                <h4>Api-Blog</h4>
               </main>
               <p></p>
               <div className="projectImg">
@@ -150,7 +153,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h3 className="projectTittle">Hairdressing Internal System</h3>
+                <h4 className="projectTittle">Hairdressing Internal System</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">
@@ -180,7 +183,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h3 className="projectTittle">Notes</h3>
+                <h4 className="projectTittle">Notes</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">
@@ -210,7 +213,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h3 className="projectTittle">Dice Game</h3>
+                <h4 className="projectTittle">Dice Game</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">
@@ -249,7 +252,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h3 className="projectTittle">Portfolio</h3>
+                <h4 className="projectTittle">Portfolio</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">asd</div>
@@ -286,7 +289,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h3 className="projectTittle">Futbol Tournament</h3>
+                <h4 className="projectTittle">Futbol Tournament</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">

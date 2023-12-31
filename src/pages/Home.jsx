@@ -10,7 +10,6 @@ import { faSquareCheck } from "@fortawesome/free-regular-svg-icons";
 export const Home = () => {
   return (
     <section id="home">
-      <header className="homeTittle"></header>
       <div className="container">
         <div className="homeInfo">
           <p>Hi There! I'm</p>
@@ -18,20 +17,20 @@ export const Home = () => {
           <br></br>
           <ul>
             <li>
-              <span class="icon">
+              <span className="icon">
                 <FontAwesomeIcon icon={faSquareCheck} />
               </span>
               FrontEnd
             </li>
             <li>
-              <span class="icon">
+              <span className="icon">
                 <FontAwesomeIcon icon={faSquareCheck} />
               </span>
               Backend
             </li>
 
             <li>
-              <span class="icon">
+              <span className="icon">
                 <FontAwesomeIcon icon={faSquareCheck} />
               </span>
               Engenieering Student
@@ -50,7 +49,10 @@ export const Home = () => {
             </a>
           </div>
         </div>
-        <img className="homePhotoImg" src="../../images/profile.png" />
+        <div className="homePhoto">
+          {" "}
+          <img src="../../images/profile.png" />
+        </div>
       </div>
     </section>
   );
