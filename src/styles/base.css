@@ -7,6 +7,10 @@
   place-items: center;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 section {
   position: relative;
   padding: 0px;
@@ -23,58 +27,6 @@ button {
   font-size: 16px;
   color: #a09696;
   text-decoration: none;
-}
-
-nav {
-  z-index: 2;
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 100px;
-  background-color: #0d1b2a;
-  opacity: 1;
-}
-
-.nav-content a {
-  color: white;
-}
-
-.nav-content a:hover {
-  color: grey;
-}
-
-.nav-links {
-  list-style-type: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.nav-links li a {
-  transition: all 0.3s ease 0s;
-  color: rgb(221, 219, 219);
-}
-
-.nav-links li a:hover {
-  color: grey;
-}
-
-button {
-  padding: 9px 25px;
-  background-color: #ef9335;
-  border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
-  color: black;
 }
 
 .button {
@@ -133,10 +85,6 @@ button {
   background-color: grey;
 }
 
-button:hover {
-  background-color: rgb(202, 202, 202);
-}
-
 footer {
   background-color: #e0e1dd;
 }
@@ -148,7 +96,7 @@ p {
 
 h1 {
   color: rgb(207, 207, 207);
-  font-size: 20rem;
+  font-size: 2 rem;
   text-transform: initial;
   padding-bottom: 10rem;
 }
@@ -182,13 +130,19 @@ h2 {
   justify-content: center;
   align-items: center;
   margin: 0;
-  padding: 0;
+  padding: 25px;
   width: 65%;
 }
 
 .f-container {
   display: flex;
   width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.box {
+  margin: 20px;
 }
 
 footer {
@@ -212,4 +166,154 @@ footer span {
   text-transform: uppercase;
   opacity: 0.5;
   font-weight: 200;
+}
+
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.logo {
+  margin: 2rem;
+}
+
+.primary-header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.primary-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+}
+
+.mobile-nav-toggle {
+  display: none;
+}
+
+@media (max-width: 35em) {
+  #about table {
+    color: grey;
+  }
+
+  #about th,
+  td {
+    padding: 2px 12px 4px 0px !important;
+    font-size: 13.5px;
+  }
+
+  #studies .grid-container {
+    width: 100%;
+    padding: 10px;
+    grid-template-areas:
+      "titulo1 "
+      "titulo2 "
+      "cursos " !important;
+    gap: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; /* La primera fila se ajusta automáticamente, las demás ocupan el 1fr restante */
+  }
+
+  #contact .text {
+    display: none;
+  }
+  #home img {
+    display: none;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #about .container {
+    flex-direction: column;
+  }
+
+  .primary-navigation {
+    position: fixed;
+    inset: 0 0 0 30%;
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+
+    flex-direction: column;
+    padding: min(30vh, 10rem) 2em;
+    transform: translateX(100%);
+  }
+
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0%);
+  }
+  .mobile-nav-toggle {
+    position: absolute;
+    width: 1rem;
+    aspect-ratio: 1;
+    top: 2rem;
+    right: 2rem;
+    z-index: 9999;
+    display: block;
+  }
+
+  #home .socialIcons a {
+    color: rgb(239, 239, 239);
+    font-size: 25px;
+  }
+
+  #home .socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  #home .icon {
+    color: rgb(118, 95, 62);
+    margin-right: 8px;
+  }
+
+  .homeInfo {
+    place-content: start;
+    align-items: start;
+    height: auto;
+  }
+
+  .homeInfo ul {
+    list-style-type: none;
+    width: 100%;
+    text-align: start;
+  }
+
+  .homeInfo li {
+    font-size: 20px;
+    color: grey;
+  }
+
+  .homeInfo p {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-weight: 900;
+    color: rgb(193, 124, 34);
+    text-align: start;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  #about .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(max-content, max-content));
+    gap: 16px;
+    padding: 10px;
+    width: 100%;
+    align-items: start;
+    margin-bottom: 40px;
+  }
 }

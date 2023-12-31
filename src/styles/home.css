@@ -6,7 +6,6 @@
   align-items: end;
   justify-content: center;
   flex-direction: row;
-  overflow: content;
   background-color: rgb(4, 2, 22);
 }
 
@@ -32,14 +31,19 @@
   color: rgb(53, 64, 184);
 }
 
+#home .homePhoto {
+  place-content: end;
+  display: flex;
+  height: 100%;
+}
 #home img {
-  height: 480px;
+  width: 200px;
 }
 
 .homeInfo {
   place-content: start;
   align-items: start;
-  height: 300px;
+  height: auto;
 }
 
 .homeInfo ul {
@@ -55,8 +59,8 @@
   font-size: 20px;
 }
 
-h1 {
-  font-weight: 900 !important;
+.homeInfo h1 {
+  font-weight: 900;
   color: rgb(193, 124, 34);
   text-align: start;
   font-size: 2.5rem;

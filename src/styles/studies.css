@@ -66,10 +66,9 @@
   margin-bottom: 45px;
   width: 65%;
   grid-template-areas:
-    "titulo1 titulo2"
-    "titulo3 titulo4"
-    "cursos cursos";
+    "titulo1 cursos"
+    "titulo2 titulo2";
   gap: 16px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto auto 1fr; /* La primera fila se ajusta automáticamente, las demás ocupan el 1fr restante */
 }
