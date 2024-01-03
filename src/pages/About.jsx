@@ -20,7 +20,7 @@ export const About = () => {
           </p>
           <br></br>
           <p>
-            Beyond coding and studing, I immerse myself in music, sports, and
+            Beyond coding and studying, I immerse myself in music, sports, and
             drawing, channeling my creativity and enhancing my well-rounded
             perspective.
           </p>
@@ -43,7 +43,7 @@ export const About = () => {
                 <td>
                   <span>Date of Birth:</span>
                 </td>
-                <td>Febraury 14, 2000</td>
+                <td>February 14, 2000</td>
               </tr>
               <tr>
                 <td>
@@ -86,7 +86,7 @@ export const About = () => {
       </div>
       <div className="grid-container">
         <div className="grid-item">
-          <h3 className="skillTittle">Tecnologies</h3>
+          <h3 className="skillTittle">Technologies</h3>
           <ul>
             <li>Mongoose</li>
             <li>Node</li>
@@ -97,7 +97,7 @@ export const About = () => {
           </ul>
         </div>
         <div className="grid-item">
-          <h3 className="skillTittle">Programming Lenguages</h3>
+          <h3 className="skillTittle">Programming Languages</h3>
           <ul>
             <li>C/C++</li>
             <li>Python</li>
@@ -109,7 +109,7 @@ export const About = () => {
           </ul>
         </div>
         <div className="grid-item">
-          <h3 className="skillTittle">Courses </h3>
+          <h3 className="skillTittle">Languayes </h3>
           <ul>
             <li>English: B2</li>
             <li> German: B1</li>
