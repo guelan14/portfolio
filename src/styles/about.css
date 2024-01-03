@@ -56,6 +56,7 @@ td {
 
 #about span {
   color: black;
+  text-decoration: line-through;
 }
 .aboutInfo {
   display: flex;

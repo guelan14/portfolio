@@ -61,7 +61,7 @@ export const About = () => {
                 <td>
                   <a
                     className="buttonSecondary"
-                    href="../../files/NeumannMiguelAngelCV.pdf"
+                    href="mailto:miguelangelneumann@gmail.com"
                     download
                   >
                     Hire Me

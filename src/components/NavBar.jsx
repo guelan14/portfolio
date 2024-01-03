@@ -27,19 +27,19 @@ export const NavBar = () => {
             data-visible={isNavVisible}
             className="primary-navigation flex"
           >
-            <li>
+            <li onClick={handleToggleClick}>
               <a href="#home">Home</a>
             </li>
-            <li>
+            <li onClick={handleToggleClick}>
               <a href="#about">About</a>
             </li>
-            <li>
+            <li onClick={handleToggleClick}>
               <a href="#projects">Projects</a>
             </li>
-            <li>
+            <li onClick={handleToggleClick}>
               <a href="#studies">Studies</a>
             </li>
-            <li>
+            <li onClick={handleToggleClick}>
               <a href="#contact">Contact</a>
             </li>
           </ul>

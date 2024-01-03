@@ -195,6 +195,7 @@ footer span {
 
 .mobile-nav-toggle {
   display: none;
+  font-size: 20px;
 }
 
 header a {
@@ -275,6 +276,7 @@ header a:hover::after {
   .primary-header {
     justify-content: end;
   }
+
   .primary-navigation {
     position: fixed;
     inset: 0 0 0 30%;
