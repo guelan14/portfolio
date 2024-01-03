@@ -81,10 +81,14 @@ button {
 
 .button:hover {
   background-color: #cc6600; /* Cambiado a un tono más oscuro al pasar el ratón por encima */
+  transform: scale(1.03);
+  transition: 0.3s ease;
 }
 
 .buttonSecondary:hover {
   background-color: grey;
+  transform: scale(1.03);
+  transition: 0.3s ease;
 }
 
 footer {
@@ -317,6 +321,8 @@ header a:hover::after {
     align-items: start;
     height: auto;
     margin-bottom: 15px;
+    padding-right: 0;
+    padding-top: 25px;
   }
 
   .homeInfo ul {
