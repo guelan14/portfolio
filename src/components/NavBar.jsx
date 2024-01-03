@@ -13,10 +13,6 @@ export const NavBar = () => {
   return (
     <>
       <header className="primary-header flex">
-        <a className="logo" href="#home">
-          M.A.N.
-        </a>
-
         <button
           className="mobile-nav-toggle"
           aria-controls="primary-navigation"

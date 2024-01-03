@@ -14,8 +14,9 @@ export const About = () => {
         <div className="aboutInfo">
           <p>
             I'm a creative and dedicated person. Currently, I'm studying
-            Engineering and taking online courses to continuously expand my
-            skills and knowledge.
+            <strong> Engineering</strong> and taking
+            <strong> online courses</strong> to continuously expand my skills
+            and knowledge.
           </p>
           <br></br>
           <p>
@@ -27,23 +28,33 @@ export const About = () => {
           <table>
             <tbody>
               <tr>
-                <td>Name:</td>
+                <td>
+                  <span>Name:</span>
+                </td>
                 <td>Miguel Angel Neumann</td>
               </tr>
               <tr>
-                <td>Email:</td>
+                <td>
+                  <span>Email:</span>
+                </td>
                 <td>miguelangelneumann@gmail.com</td>
               </tr>
               <tr>
-                <td>Date of Birth:</td>
+                <td>
+                  <span>Date of Birth:</span>
+                </td>
                 <td>Febraury 14, 2000</td>
               </tr>
               <tr>
-                <td>Nationality:</td>
+                <td>
+                  <span>Nationality:</span>
+                </td>
                 <td>Argentinian-German</td>
               </tr>
               <tr>
-                <td>Address:</td>
+                <td>
+                  <span>Address:</span>
+                </td>
                 <td>Misiones, Posadas</td>
               </tr>
               <tr>

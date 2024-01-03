@@ -8,7 +8,11 @@
   flex-direction: row;
   background-color: rgb(4, 2, 22);
 }
-
+#home .container {
+  padding-bottom: 0;
+  place-content: center;
+  align-items: end;
+}
 #home .socialIcons a {
   color: rgb(239, 239, 239);
   font-size: 25px;
@@ -34,8 +38,8 @@
 #home .homePhoto {
   place-content: end;
   display: flex;
-  height: 100%;
 }
+
 #home img {
   width: 200px;
 }
@@ -44,6 +48,8 @@
   place-content: start;
   align-items: start;
   height: auto;
+  margin-bottom: 70px;
+  padding-right: 15px;
 }
 
 .homeInfo ul {
@@ -51,8 +57,9 @@
 }
 
 .homeInfo li {
-  font-size: 22px;
-  color: grey;
+  font-size: 18px;
+  color: rgb(165, 166, 181);
+  font-weight: 300;
 }
 
 .homeInfo p {

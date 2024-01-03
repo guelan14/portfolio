@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
+import "@fontsource-variable/onest";
 import "./styles/home.css";
 import "./styles/projects.css";
 import "./styles/about.css";

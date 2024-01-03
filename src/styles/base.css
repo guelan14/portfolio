@@ -1,5 +1,5 @@
 * {
-  font-family: "Reem Kufi Fun", sans-serif;
+  font-family: "Onest Variable", sans-serif;
   position: relative;
   margin: 0;
   padding: 0;
@@ -27,6 +27,8 @@ button {
   font-size: 16px;
   color: #a09696;
   text-decoration: none;
+  border: none;
+  background-color: transparent;
 }
 
 .button {
@@ -179,7 +181,9 @@ footer span {
 
 .primary-header {
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  background-color: rgb(32, 45, 55);
+  padding: 20px;
 }
 
 .primary-navigation {
@@ -193,6 +197,34 @@ footer span {
   display: none;
 }
 
+header a {
+  padding: 8px;
+  color: rgb(193, 193, 193);
+  font-size: 13px;
+  border-radius: 3px;
+}
+
+header a::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: rgb(193, 193, 193);
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.3s ease-in-out;
+}
+
+header a:hover {
+  background-color: rgb(50, 69, 85);
+  text-decoration-color: rgb(50, 69, 85);
+}
+
+header a:hover::after {
+  width: 100%;
+}
+
 @media (max-width: 35em) {
   #about table {
     color: grey;
@@ -202,6 +234,10 @@ footer span {
   td {
     padding: 2px 12px 4px 0px !important;
     font-size: 13.5px;
+  }
+
+  #about .aboutPhoto {
+    width: 100%;
   }
 
   #studies .grid-container {
@@ -236,6 +272,9 @@ footer span {
     flex-direction: column;
   }
 
+  .primary-header {
+    justify-content: end;
+  }
   .primary-navigation {
     position: fixed;
     inset: 0 0 0 30%;
@@ -251,13 +290,8 @@ footer span {
     transform: translateX(0%);
   }
   .mobile-nav-toggle {
-    position: absolute;
-    width: 1rem;
-    aspect-ratio: 1;
-    top: 2rem;
-    right: 2rem;
+    display: flex;
     z-index: 9999;
-    display: block;
   }
 
   #home .socialIcons a {
@@ -280,6 +314,7 @@ footer span {
     place-content: start;
     align-items: start;
     height: auto;
+    margin-bottom: 15px;
   }
 
   .homeInfo ul {

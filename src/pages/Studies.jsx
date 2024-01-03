@@ -16,7 +16,7 @@ export const Studies = () => {
           <h4>Process Industry Technician </h4>
           <p className="grid-uni">E.P.E.T. N10</p>
         </div>
-        <div className="cursos">
+        <div className="cursos grid-item">
           <h2>Courses </h2>
           <ul>
             <li>Practical Curse Django: Web Development Backend with Python</li>
