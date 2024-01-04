@@ -56,7 +56,7 @@ td {
 
 #about span {
   color: black;
-  text-decoration: line-through;
+  font-weight: 500;
 }
 .aboutInfo {
   display: flex;

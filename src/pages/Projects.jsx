@@ -22,9 +22,10 @@ export const Projects = () => {
   return (
     <section id="projects">
       <header className="seccionTittle">
-        <h2>Proyects</h2>
+        <h2>Projects</h2>
+        <h3>Exploring My Creativity</h3>
       </header>
-      <h3>Exploring My Creativity: Featured Projects</h3>
+
       <div className="swiperContent f-container">
         <Swiper
           //breakpoints
@@ -289,7 +290,7 @@ export const Projects = () => {
                 </ul>
               </header>
               <main>
-                <h4 className="projectTittle">Futbol Tournament</h4>
+                <h4 className="projectTittle">Football Tournament</h4>
                 <p>asdasdsadasd asd asd a</p>
               </main>
               <div className="projectImg">

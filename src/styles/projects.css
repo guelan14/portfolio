@@ -51,17 +51,12 @@
 }
 
 #projects h2 {
-  margin-bottom: 20px;
   text-align: center;
   color: rgb(255, 255, 255);
 }
 
 #projects h3 {
-  color: rgb(220, 220, 220);
-  font-size: 1.4rem;
-  text-align: start;
-  width: 100%;
-  padding-inline: 25px;
+  color: rgb(180, 180, 180);
   text-align: center;
 }
 
