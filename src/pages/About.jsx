@@ -109,7 +109,7 @@ export const About = () => {
           </ul>
         </div>
         <div className="grid-item">
-          <h3 className="skillTittle">Languayes </h3>
+          <h3 className="skillTittle">Languages </h3>
           <ul>
             <li>English: B2</li>
             <li> German: B1</li>

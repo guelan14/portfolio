@@ -49,7 +49,6 @@
   padding: 10px 10px 40px 10px;
   background-color: rgba(10, 4, 4, 0.3); /* Azul con transparencia */
   border-radius: 10px;
-  cursor: pointer;
   opacity: 0.9;
   overflow: hidden;
 }

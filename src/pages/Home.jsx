@@ -33,7 +33,7 @@ export const Home = () => {
               <span className="icon">
                 <FontAwesomeIcon icon={faSquareCheck} />
               </span>
-              Engenieering Student
+              Engineering Student
             </li>
           </ul>
           <br></br>
