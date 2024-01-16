@@ -65,7 +65,7 @@ export const Projects = () => {
                   <li>
                     <a
                       className="button"
-                      href="https://github.com/guelan14/api-red-social"
+                      href="https://github.com/guelan14/api-node-red-social"
                       target="__blank"
                     >
                       <FontAwesomeIcon icon={faGithub} />
@@ -110,7 +110,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Web Page</li>
+                  <li className="buttonProject">Page Dev</li>
                   <li className="buttonYear">2023</li>
                 </ul>
               </header>
