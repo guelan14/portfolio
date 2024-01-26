@@ -53,8 +53,39 @@ export const Projects = () => {
                 </ul>
               </header>
               <main className="proyectTittle">
+                <h4>Api-Rest-Musical</h4>
+                <p>C.R.U.D Api using Node, Jwt, mongodb</p>
+              </main>
+              <p></p>
+              <div className="projectImg">
+                <img src="../../images/api-node.png" />
+              </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/api-blog-musica"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <header>
+                <ul>
+                  <li className="buttonProject">Api Dev</li>
+                  <li className="buttonYear">2024</li>
+                </ul>
+              </header>
+              <main className="proyectTittle">
                 <h4>Api-Red-Social</h4>
-                <p>C.R.U.D Api with authentications using Node</p>
+                <p>C.R.U.D Api using Node, Node, Jwt, mongodb</p>
               </main>
               <p></p>
               <div className="projectImg">
