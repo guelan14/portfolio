@@ -20,6 +20,7 @@ export const Studies = () => {
           <h2>Courses </h2>
           <ul>
             <li>Master en APIs RESTful con NodeJS</li>
+            <li>Product Management Course</li>
             <li>Practical Curse Django: Web Development Backend with Python</li>
             <li> The Complete 2023 Web Development Bootcamp</li>
             <li>Ultimate AWS Certified Cloud Practitioner – 2023</li>
