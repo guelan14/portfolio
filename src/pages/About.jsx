@@ -94,6 +94,7 @@ export const About = () => {
             <li>Postman</li>
             <li>Django</li>
             <li>MySql</li>
+            <li>Jwt</li>
           </ul>
         </div>
         <div className="grid-item">
@@ -104,8 +105,7 @@ export const About = () => {
             <li>Sql</li>
             <li>Html</li>
             <li>Css</li>
-            <li>Js</li>
-            <li>Java</li>
+            <li>JavaScript</li>
           </ul>
         </div>
         <div className="grid-item">
