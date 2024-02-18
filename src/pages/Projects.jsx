@@ -79,6 +79,37 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
+                  <li className="buttonProject">Front Dev</li>
+                  <li className="buttonYear">2024</li>
+                </ul>
+              </header>
+              <main className="proyectTittle">
+                <h4>Hidear Construcciones</h4>
+                <p>Developing a front for Hidear Construcciones</p>
+              </main>
+              <p></p>
+              <div className="projectImg">
+                <img src="../../images/hidearConstrucciones.png" />
+              </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="buttonSecondary"
+                      href="https://www.hidearconstrucciones.com.ar/"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faLink} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <header>
+                <ul>
                   <li className="buttonProject">Api Dev</li>
                   <li className="buttonYear">2024</li>
                 </ul>
