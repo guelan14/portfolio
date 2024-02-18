@@ -95,6 +95,7 @@ export const About = () => {
             <li>Django</li>
             <li>MySql</li>
             <li>Jwt</li>
+            <li>Tailwind</li>
           </ul>
         </div>
         <div className="grid-item">
