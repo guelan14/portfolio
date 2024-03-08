@@ -24,7 +24,7 @@ export const Contact = () => {
       email: formData.get("email"),
       mensaje: formData.get("textarea"),
     };
-    //
+
     await axios
       .post("https://email-sender-theta.vercel.app/send-email-portfolio", {
         data,
