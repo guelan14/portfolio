@@ -6,7 +6,6 @@ import {
   faSquareGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import axios from "axios";
-import { faUnderline } from "@fortawesome/free-solid-svg-icons";
 
 export const Contact = () => {
   const [enviado, setEnviado] = useState(false);
@@ -148,6 +147,7 @@ export const Contact = () => {
                     <input
                       type="text"
                       id="nombre"
+                      value={nombre}
                       autoComplete="nombre-dado"
                       placeholder="Nombre"
                       className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md text-black sm:mb-0"
@@ -160,6 +160,7 @@ export const Contact = () => {
                     <input
                       type="email"
                       id="email"
+                      value={email}
                       autoComplete="email"
                       placeholder="Su email "
                       className=""
@@ -173,6 +174,7 @@ export const Contact = () => {
                       className="pb-1 text-xs uppercase tracking-wider"
                     ></label>
                     <textarea
+                      value={mensaje}
                       id="textarea"
                       name="textarea"
                       placeholder="Escribe su mensaje..."
@@ -190,9 +192,19 @@ export const Contact = () => {
                     className="button buttonForm"
                   >
                     {sending ? (
-                      <div role="status">
-                        <div className="loader flex"></div>
-                        <span className="sr-only">Loading...</span>
+                      <div
+                        style={{
+                          width: "100%",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                        role="status"
+                      >
+                        <div style={{ display: "flex" }}>
+                          <div className="loader"></div>
+                          <span className="sr-only">Loading...</span>
+                        </div>
                       </div>
                     ) : (
                       "Enviar"
