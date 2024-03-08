@@ -1,4 +1,3 @@
-import axios from "axios";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -6,6 +5,7 @@ import {
   faLinkedin,
   faSquareGithub,
 } from "@fortawesome/free-brands-svg-icons";
+import axios from "axios";
 
 export const Contact = () => {
   const [enviado, setEnviado] = useState(false);
