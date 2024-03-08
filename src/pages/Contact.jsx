@@ -6,6 +6,7 @@ import {
   faSquareGithub,
 } from "@fortawesome/free-brands-svg-icons";
 import axios from "axios";
+import { faUnderline } from "@fortawesome/free-solid-svg-icons";
 
 export const Contact = () => {
   const [enviado, setEnviado] = useState(false);
@@ -86,17 +87,15 @@ export const Contact = () => {
                 </div>
                 <div className="">
                   <h3 className=" ">Location</h3>
-                  <p className="">
-                    <a
-                      style={{ fontSize: "14px" }}
-                      href="https://www.google.com/maps/place/Posadas,+Misiones+Province/@-27.3963033,-55.9657156,13z/data=!3m1!4b1!4m6!3m5!1s0x9457be7f080496c3:0xccbff374623e7b9a!8m2!3d-27.3621374!4d-55.9008746!16zL20vMDZncXMy?entry=ttu"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="Link to Google Maps"
-                    >
-                      Posadas, <br></br>Misiones Argentina
-                    </a>
-                  </p>
+                  <a
+                    className="location"
+                    href="https://www.google.com/maps/place/Posadas,+Misiones+Province/@-27.3963033,-55.9657156,13z/data=!3m1!4b1!4m6!3m5!1s0x9457be7f080496c3:0xccbff374623e7b9a!8m2!3d-27.3621374!4d-55.9008746!16zL20vMDZncXMy?entry=ttu"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Link to Google Maps"
+                  >
+                    Posadas, <br></br>Misiones Argentina
+                  </a>
                 </div>
               </li>
               <li className="flex">

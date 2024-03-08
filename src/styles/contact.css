@@ -117,8 +117,17 @@
   color: white;
 }
 
+.location {
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.location:hover {
+  color: orange;
+  transition: "color 0.3s";
+}
 .font:hover {
   transform: scale(1.05);
   transition: 0.3s ease;
-  color: rgb(179, 110, 31);
+  color: orange;
 }
