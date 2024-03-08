@@ -1,10 +1,19 @@
 #contact {
   padding: 0px 0px 60px 0px;
   background-color: #080b10;
+  min-height: 100vh;
 }
 
 #contact h2 {
   color: rgb(198, 197, 196);
+}
+
+#contact .grid-item h2 {
+  font-size: x-large;
+  text-align: start;
+}
+
+#contact header {
   text-align: center;
 }
 
@@ -23,4 +32,93 @@
   grid-template-columns: 1fr 1fr;
   align-items: start;
   box-sizing: border-box;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact li {
+  margin: 8px;
+  padding: 5px;
+  padding-bottom: 10px;
+  color: rgb(206, 205, 205);
+  font-size: 14px;
+  text-align: start;
+}
+
+#contact .grid-item {
+  display: flex;
+  place-content: start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  padding: 10px 10px 40px 10px;
+  background-color: transparent; /* Azul con transparencia */
+  border-radius: 10px;
+  opacity: 0.9;
+  overflow: hidden;
+}
+
+#contact .grid-container {
+  display: grid;
+  margin-bottom: 45px;
+  width: 65%; /* Cambiado de 65% a 100% para ocupar todo el ancho */
+  grid-template-areas: "info" "form"; /* Cambiado para una sola columna en dispositivos más pequeños */
+  gap: 16px;
+  grid-template-columns: 1fr; /* Cambiado para una sola columna en dispositivos más pequeños */
+  grid-template-rows: auto auto; /* Las filas se ajustan automáticamente */
+}
+
+@media (min-width: 768px) {
+  #contact .grid-container {
+    grid-template-areas: "info form";
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-template-rows: auto auto 1fr;
+  }
+}
+#contact input,
+#contact textarea {
+  width: 100%;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.formItem {
+  padding-bottom: 0.7rem;
+}
+
+#contact {
+  width: 100%;
+}
+
+.buttonForm {
+  width: 100%;
+}
+
+#contact .form {
+  width: 100%;
+  height: 100%;
+}
+
+#contact .socialIcons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 60px;
+}
+
+.font {
+  font-size: xx-large;
+  color: white;
+}
+
+.font:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+  color: rgb(179, 110, 31);
 }

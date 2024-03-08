@@ -1,6 +1,7 @@
 #studies {
   background-color: #1b263b;
   color: rgb(255, 255, 255);
+  min-height: 100vh;
 }
 
 #studies h4 {

@@ -39,13 +39,13 @@ export const Home = () => {
           <br></br>
           <div className="socialIcons">
             <a href="https://github.com/guelan14">
-              <FontAwesomeIcon icon={faSquareGithub} />
+              <FontAwesomeIcon icon={faSquareGithub} className="font" />
             </a>
             <a href="https://www.linkedin.com/in/miguel-angel-neumann-a45639229">
-              <FontAwesomeIcon icon={faLinkedin} />
+              <FontAwesomeIcon icon={faLinkedin} className="font" />
             </a>
             <a href="https://instagram.com/migue_neumann?igshid=YTQwZjQ0NmI0OA==">
-              <FontAwesomeIcon icon={faInstagram} />
+              <FontAwesomeIcon icon={faInstagram} className="font" />
             </a>
           </div>
         </div>
