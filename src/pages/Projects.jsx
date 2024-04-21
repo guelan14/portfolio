@@ -48,6 +48,73 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
+                  <li className="buttonProject">Front Dev</li>
+                  <li className="buttonYear">2024</li>
+                </ul>
+              </header>
+              <main className="proyectTittle">
+                <h4>Front-Mys</h4>
+                <p>
+                  Social App like Twitter using React as Front End Framework
+                </p>
+              </main>
+              <p></p>
+              <div className="projectImg">
+                <img src="../../images/mysFront.png" />
+              </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/Mys-Front"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <header>
+                <ul>
+                  <li className="buttonProject">Api Dev</li>
+                  <li className="buttonYear">2024</li>
+                </ul>
+              </header>
+              <main className="proyectTittle">
+                <h4>Api-Rest-Mys</h4>
+                <p>
+                  Social Api like Twitter using Node, express, sessions, Oauth2,
+                  mongodb
+                </p>
+              </main>
+              <p></p>
+              <div className="projectImg">
+                <img src="../../images/api-node.png" />
+              </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/Mys-Api/tree/main"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <header>
+                <ul>
                   <li className="buttonProject">Api Dev</li>
                   <li className="buttonYear">2024</li>
                 </ul>

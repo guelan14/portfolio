@@ -197,7 +197,7 @@ export const Contact = () => {
                           width: "100%",
                           display: "flex",
                           alignItems: "center",
-                          justifyContent: "center",
+                          justifyContent: "center ",
                         }}
                         role="status"
                       >
