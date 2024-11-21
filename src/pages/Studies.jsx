@@ -9,7 +9,7 @@ export const Studies = () => {
       </header>
       <div className="grid-container">
         <div className="titulo1 grid-item">
-          <h4>3rd year student Information Systems Engineering</h4>
+          <h4>4th year student Information Systems Engineering</h4>
           <p className="grid-uni">Universidad de la Cuenca del Plata (UCP)</p>
         </div>
         <div className="titulo2 grid-item">

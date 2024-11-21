@@ -9,7 +9,7 @@ export const About = () => {
 
       <div className="container">
         <div className="aboutPhoto">
-          <img className="aboutPhotoImg" src="../../images/profile.png" />
+          <img className="aboutPhotoImg" src="../../images/imagen-cv.jpg" />
         </div>
         <div className="aboutInfo">
           <p>
@@ -90,6 +90,7 @@ export const About = () => {
           <ul>
             <li>Mongoose</li>
             <li>Node</li>
+            <li>React</li>
             <li>Express</li>
             <li>Postman</li>
             <li>Django</li>
@@ -102,18 +103,19 @@ export const About = () => {
           <h3 className="skillTittle">Programming Languages</h3>
           <ul>
             <li>C/C++</li>
+            <li>PHP</li>
             <li>Python</li>
             <li>Sql</li>
             <li>Html</li>
             <li>Css</li>
-            <li>JavaScript</li>
+            <li>JavaScript/TypeScript</li>
           </ul>
         </div>
         <div className="grid-item">
           <h3 className="skillTittle">Languages </h3>
           <ul>
             <li>English: B2</li>
-            <li> German: B1</li>
+            <li>German: B1</li>
             <li>Spanish: Native</li>
           </ul>
         </div>
