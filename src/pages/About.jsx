@@ -70,7 +70,7 @@ export const About = () => {
                 <td>
                   <a
                     className="button"
-                    href="../../files/NeumannMiguelAngelCV.pdf"
+                    href="../../files/NEUMANN-MIGUEL-CV-ES.pdf"
                     download
                   >
                     Download CV
