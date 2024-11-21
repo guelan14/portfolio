@@ -302,15 +302,7 @@ export const Projects = () => {
                       <FontAwesomeIcon icon={faGithub} />
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="buttonSecondary"
-                      href="https://miguelangelneumann.com.ar"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faLink} />
-                    </a>
-                  </li>
+                  
                 </ul>
               </div>
             </div>
