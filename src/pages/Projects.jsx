@@ -48,6 +48,39 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
+                  <li className="buttonProject">Page Dev</li>
+                  <li className="buttonYear">2024</li>
+                </ul>
+              </header>
+              <main className="proyectTittle">
+                <h4>PixFood</h4>
+                <p>
+                  Manage the entire restaurant, delivery and local!
+                </p>
+              </main>
+              <p></p>
+              <div className="projectImg">
+                <img src="../../images/pixfood.webp" />
+              </div>
+              <div className="projectLink">
+                <ul>
+                  <li>
+                    <a
+                      className="button"
+                      href="https://github.com/guelan14/restaurant-pixfood.git"
+                      target="__blank"
+                    >
+                      <FontAwesomeIcon icon={faGithub} />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="projectCard">
+              <header>
+                <ul>
                   <li className="buttonProject">Front Dev</li>
                   <li className="buttonYear">2024</li>
                 </ul>
@@ -60,7 +93,7 @@ export const Projects = () => {
               </main>
               <p></p>
               <div className="projectImg">
-                <img src="../../images/mysFront.png" />
+                <img src="../../images/mysFront.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -94,7 +127,7 @@ export const Projects = () => {
               </main>
               <p></p>
               <div className="projectImg">
-                <img src="../../images/api-node.png" />
+                <img src="../../images/api-node.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -125,7 +158,7 @@ export const Projects = () => {
               </main>
               <p></p>
               <div className="projectImg">
-                <img src="../../images/api-node.png" />
+                <img src="../../images/api-node.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -156,7 +189,7 @@ export const Projects = () => {
               </main>
               <p></p>
               <div className="projectImg">
-                <img src="../../images/hidearConstrucciones.png" />
+                <img src="../../images/hidearConstrucciones.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -187,7 +220,7 @@ export const Projects = () => {
               </main>
               <p></p>
               <div className="projectImg">
-                <img src="../../images/api-node.png" />
+                <img src="../../images/api-node.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -218,7 +251,7 @@ export const Projects = () => {
               </main>
               <p></p>
               <div className="projectImg">
-                <img src="../../images/api-node.png" />
+                <img src="../../images/api-node.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -250,7 +283,7 @@ export const Projects = () => {
                 <p>Building a web page with Django</p>
               </main>
               <div className="projectImg">
-                <img src="../../images/peluqueriaMarlene.png" />
+                <img src="../../images/peluqueriaMarlene.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -280,37 +313,6 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Page dev</li>
-                  <li className="buttonYear">2023</li>
-                </ul>
-              </header>
-              <main>
-                <h4 className="projectTittle">Portfolio</h4>
-                <p>This portfolio! Did it with React</p>
-              </main>
-              <div className="projectImg">
-                <img src="../../images/portfolio.png" />
-              </div>
-              <div className="projectLink">
-                <ul>
-                  <li>
-                    <a
-                      className="button"
-                      href="https://github.com/guelan14/portfolio"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </li>
-                  
-                </ul>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="projectCard">
-              <header>
-                <ul>
                   <li className="buttonProject">System Dev</li>
                   <li className="buttonYear">2023</li>
                 </ul>
@@ -320,7 +322,7 @@ export const Projects = () => {
                 <p>A small POO project for school using python </p>
               </main>
               <div className="projectImg">
-                <img src="../../images/futbol.jpg" />
+                <img src="../../images/futbol.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -337,7 +339,6 @@ export const Projects = () => {
               </div>
             </div>
           </SwiperSlide>
-
           <SwiperSlide>
             <div className="projectCard">
               <header>
@@ -351,7 +352,7 @@ export const Projects = () => {
                 <p>Project using C to manage a Hairdressing System</p>
               </main>
               <div className="projectImg">
-                <img src="../../images/peluqueriaC.png" />
+                <img src="../../images/peluqueriaC.webp" />
               </div>
               <div className="projectLink">
                 <ul>
@@ -372,76 +373,6 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Page Design</li>
-                  <li className="buttonYear">2023</li>
-                </ul>
-              </header>
-              <main>
-                <h4 className="projectTittle">Notes</h4>
-                <p>The common To do List! Practising React</p>
-              </main>
-              <div className="projectImg">
-                <img src="../../images/mys.png" />
-              </div>
-              <div className="projectLink">
-                <ul>
-                  <li>
-                    <a
-                      className="button"
-                      href="https://github.com/guelan14/notesDinamic"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="projectCard">
-              <header>
-                <ul>
-                  <li className="buttonProject">Page Design</li>
-                  <li className="buttonYear">2023</li>
-                </ul>
-              </header>
-              <main>
-                <h4 className="projectTittle">Dice Game</h4>
-                <p>One of my first projects! Just starting web development</p>
-              </main>
-              <div className="projectImg">
-                <img src="../../images/futbol.jpg" />
-              </div>
-              <div className="projectLink">
-                <ul>
-                  <li>
-                    <a
-                      className="button"
-                      href="https://github.com/guelan14/dice-game"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="buttonSecondary"
-                      href="https://guelan14.github.io/dice-game/"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faLink} />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <div className="projectCard">
-              <header>
-                <ul>
                   <li className="buttonProject">System Dev</li>
                   <li className="buttonYear">2023</li>
                 </ul>
@@ -451,7 +382,7 @@ export const Projects = () => {
                 <p>A small POO project to practice Java</p>
               </main>
               <div className="projectImg">
-                <img src="../../images/futbolDiagram.png" />
+                <img src="../../images/futbolDiagram.webp" />
               </div>
               <div className="projectLink">
                 <ul>
