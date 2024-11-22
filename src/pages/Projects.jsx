@@ -55,7 +55,7 @@ export const Projects = () => {
               <main className="proyectTittle">
                 <h4>PixFood</h4>
                 <p>
-                  Manage the entire restaurant, delivery and local!
+                  Manage the entire restaurant, delivery and local! Code done with PHP, mysql, css, js, html
                 </p>
               </main>
               <p></p>
