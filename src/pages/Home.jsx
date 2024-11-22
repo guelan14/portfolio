@@ -51,7 +51,7 @@ export const Home = () => {
         </div>
         <div className="homePhoto">
           {" "}
-          <img src="../../images/profile.png" />
+          <img src="../../images/profile.webp" />
         </div>
       </div>
     </section>

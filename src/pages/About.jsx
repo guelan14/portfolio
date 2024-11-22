@@ -9,7 +9,7 @@ export const About = () => {
 
       <div className="container">
         <div className="aboutPhoto">
-          <img className="aboutPhotoImg" src="../../images/imagen-cv.jpg" />
+          <img className="aboutPhotoImg" src="../../images/imagen-cv.webp" />
         </div>
         <div className="aboutInfo">
           <p>
