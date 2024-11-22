@@ -50,8 +50,7 @@ export const Home = () => {
           </div>
         </div>
         <div className="homePhoto">
-          {" "}
-          <img src="../../images/profile.webp" />
+          <img src="../../images/profile.webp" alt="Profile Photo" loading="lazy" />
         </div>
       </div>
     </section>

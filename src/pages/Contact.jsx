@@ -52,7 +52,6 @@ export const Contact = () => {
 
   const handleSending = () => {
     setSending(true);
-    console.log("HOLAAAAAA");
   };
 
   return (
