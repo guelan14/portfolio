@@ -48,7 +48,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Page Dev</li>
+                  <li className="buttonProject">Web App</li>
                   <li className="buttonYear">2024</li>
                 </ul>
               </header>
@@ -81,14 +81,15 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Front Dev</li>
+                  <li className="buttonProject">Web App</li>
                   <li className="buttonYear">2024</li>
                 </ul>
               </header>
               <main className="proyectTittle">
-                <h4>Front-Mys</h4>
+                <h4>Mys</h4>
                 <p>
-                  Social App like Twitter using React as Front End Framework
+                  Social App like Twitter using React, Node, express, sessions, Oauth2,
+                  mongodb
                 </p>
               </main>
               <p></p>
@@ -101,40 +102,6 @@ export const Projects = () => {
                     <a
                       className="button"
                       href="https://github.com/guelan14/Mys-Front"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faGithub} />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="projectCard">
-              <header>
-                <ul>
-                  <li className="buttonProject">Api Dev</li>
-                  <li className="buttonYear">2024</li>
-                </ul>
-              </header>
-              <main className="proyectTittle">
-                <h4>Api-Rest-Mys</h4>
-                <p>
-                  Social Api like Twitter using Node, express, sessions, Oauth2,
-                  mongodb
-                </p>
-              </main>
-              <p></p>
-              <div className="projectImg">
-                <img src="../../images/api-node.webp" />
-              </div>
-              <div className="projectLink">
-                <ul>
-                  <li>
-                    <a
-                      className="button"
-                      href="https://github.com/guelan14/Mys-Api/tree/main"
                       target="__blank"
                     >
                       <FontAwesomeIcon icon={faGithub} />
@@ -179,7 +146,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Front Dev</li>
+                  <li className="buttonProject">Web App</li>
                   <li className="buttonYear">2024</li>
                 </ul>
               </header>
@@ -272,7 +239,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">Page Dev</li>
+                  <li className="buttonProject">Web App</li>
                   <li className="buttonYear">2023</li>
                 </ul>
               </header>
@@ -296,15 +263,6 @@ export const Projects = () => {
                       <FontAwesomeIcon icon={faGithub} />
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="buttonSecondary"
-                      href="https://www.peluqueriamarlene.com.ar/"
-                      target="__blank"
-                    >
-                      <FontAwesomeIcon icon={faLink} />
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>
@@ -313,7 +271,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">System Dev</li>
+                  <li className="buttonProject">System App</li>
                   <li className="buttonYear">2023</li>
                 </ul>
               </header>
@@ -343,7 +301,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">System Dev</li>
+                  <li className="buttonProject">System App</li>
                   <li className="buttonYear">2023</li>
                 </ul>
               </header>
@@ -373,7 +331,7 @@ export const Projects = () => {
             <div className="projectCard">
               <header>
                 <ul>
-                  <li className="buttonProject">System Dev</li>
+                  <li className="buttonProject">System App</li>
                   <li className="buttonYear">2023</li>
                 </ul>
               </header>
